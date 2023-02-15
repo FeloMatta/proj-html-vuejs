@@ -18,6 +18,10 @@ import { faMugSaucer } from '@fortawesome/free-solid-svg-icons'
 import { faCubes } from '@fortawesome/free-solid-svg-icons'
 import { faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
 library.add(faMagnifyingGlass,
@@ -28,7 +32,11 @@ library.add(faMagnifyingGlass,
     faMugSaucer,
     faCubes,
     faLaptop,
-    faWrench
+    faWrench,
+    faFacebookF,
+    faTwitter,
+    faInstagram,
+    faYoutube
 )
 
 createApp(App)
