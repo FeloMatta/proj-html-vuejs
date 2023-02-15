@@ -40,7 +40,7 @@ export default{
     <!-- / AVADA FORUM IS THE PLACE TO BE -->
 
     <!-- ALL THE LATEST NEWS -->
-    <div id="third-section" class="">
+    <div id="third-section">
       <div class="py-5">
         <P>PHASELLUS EGET METUS</P>
         <h1>
@@ -204,13 +204,135 @@ export default{
         </div>
       </div>
       <!-- /REVIEWED PRODUCT // TUTORIALS & GUIDES -->
-      <!-- READ OUR BLOG -->
-      <div>
-        
-      </div>
-      <!-- /READ OUR BLOG -->
     </div>
     <!-- / ALL THE LATEST NEWS -->
+    <!-- READ OUR BLOG -->
+    <div id="read-blog" class="fw-bold d-flex justify-content-center align-items-center">
+      READ OUR BLOG →
+    </div>
+    <!-- /READ OUR BLOG -->
+
+    <!-- FORUM SECTION -->
+    <div id="forum-section">
+      <div class="container">
+        <div class="py-5 text-center">
+          <P>PHASELLUS EGET METUS</P>
+          <h1 class="fw-bold">
+            Foru<span class="my-underline">m Se</span>ctions
+          </h1>
+        </div>
+        <div>
+          <div class="row row-cols-4 py-4 d-flex justify-content-center gap-5">
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-solid fa-file-lines" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  News & Community
+                </h5>
+              </div>
+            </div>
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-brands fa-apple" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  Apple Forum
+                </h5>
+              </div>
+            </div>
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-brands fa-windows" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  Microsoft Forum
+                </h5>
+              </div>
+            </div>
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-brands fa-android" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  Android Forum
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- seconda parte -->
+          <div class="row row-cols-4 py-4 d-flex justify-content-center gap-5">
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-solid fa-mug-saucer" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  General Discussion
+                </h5>
+              </div>
+            </div>
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-solid fa-cubes" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  Apps & Software
+                </h5>
+              </div>
+            </div>
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-solid fa-laptop" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  Gadget & Stuff
+                </h5>
+              </div>
+            </div>
+            <div class="col-2 d-flex flex-column align-items-center my-bg py-5">
+              <div class="my-bg-icon rounded-circle d-flex justify-content-center align-items-center">
+                <font-awesome-icon icon="fa-solid fa-wrench" />
+              </div>
+              <div class="d-flex justify-content-center">
+                <h5 class="fw-bold py-2">
+                  Tutorials & Guides
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /FORUM SECTION -->
+    <!-- GO TO FORUM -->
+    <div id="read-blog" class="fw-bold d-flex justify-content-center align-items-center">
+      GO TO FORUM →
+    </div>
+    <!-- /GO TO FORUM -->
+    <!-- COMMUNITY -->
+    <div id="community" class="text-center d-flex flex-column justify-content-center align-items-center">
+      <div class="container">
+        <h1>
+          Hey! Join to our <br>
+          Community
+        </h1>
+        <p class="py-4">
+          Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. Curabitur feugiat <br>
+          vulputate purus ipsums dolores ficilis uns etra.
+        </p>
+        <button class="btn py-3 px-5 rounded-1 fw-bold" type="button">
+          SIGN UP >
+        </button>
+      </div>
+    </div>
+    <!-- /COMMUNITY -->
   </main>
 </template>
 
@@ -337,6 +459,46 @@ main{
       .mini-p{
         font-size: 0.8rem;
       }
+    }
+  }
+
+  #read-blog{
+    background-color: #191919;
+    height: 150px;
+    color: white;
+  }
+
+  #forum-section{
+    background-color: #f2f2f2;
+    .my-underline{
+      padding-bottom: 20px;
+      border-bottom: 2px solid #ff8d61;
+      line-height: 48px;
+    }
+
+    .my-bg-icon{
+      font-size: 3rem;
+      color: white;
+      background-color: #ff8d61;
+      height: 90px;
+      width: 90px;
+    }
+    
+    .my-bg{
+      background-color: white;
+      border-top-style: solid;
+      border-top-color: #28AFC3;
+    }
+  }
+
+  #community{
+    background-image: url(../assets/img/join_now_cta_bg.jpg);
+    height: 600px;
+    color: white;
+
+    button{
+      color: white;
+      background-color: #28AFC3;
     }
   }
 }
